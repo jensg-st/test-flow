@@ -1,0 +1,16 @@
+functions:
+- id: http-request
+  image: gerke74/http-request:dev
+  type: knative-workflow
+
+states:
+- id: get-bitcoin
+  type: action
+  log: get bitcoin price
+  # this just executes the function and does not care about the response
+  async: true
+  action:
+    function: http-request
+    input:
+      method: GET
+      url: https://blockchain.info/ticker
