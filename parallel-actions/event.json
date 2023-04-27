@@ -1,0 +1,11 @@
+{
+    "specversion" : "1.0",
+    "type" : "testevent",
+    "source" : "mysource",
+    "datacontenttype" : "application/json",
+    "data" : {
+        "name1": "Jens",
+        "name2": "Hello",
+        "name3": "World"
+    }
+}
