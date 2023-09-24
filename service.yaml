@@ -1,4 +1,4 @@
 direktiv-api: services/v1
 services:
 - name: requester
-  image: direktiv/request:v4
+  image: direktiv/request:v4
