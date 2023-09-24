@@ -1,4 +1,4 @@
-direktiv-api: services/v1
+direktiv_api: services/v1
 services:
 - name: requester
   image: direktiv/request:v4
