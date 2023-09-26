@@ -1,9 +1,0 @@
-start:
-  type: event
-  event:
-    type: error.event
-  state: 
-states:
-- id: print-error
-  type: noop
-  log: jq(.)
