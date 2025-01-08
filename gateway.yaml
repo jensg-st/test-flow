@@ -10,5 +10,7 @@ paths:
   /user:
     $ref: ./user.yaml
 
+
+
 servers:
   - url: http://api.example.com/v1
