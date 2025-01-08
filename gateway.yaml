@@ -1,0 +1,14 @@
+openapi: 3.0.0
+x-direktiv-api: gateway/v1
+
+info:
+  title: namespace name
+  description: description of namespace
+  version: git-commit / tag?
+
+paths:
+  /user:
+    $ref: ./user.yaml
+
+servers:
+  - url: http://api.example.com/v1
