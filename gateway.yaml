@@ -12,5 +12,6 @@ paths:
 
 
 
+
 servers:
   - url: http://api.example.com/v1
