@@ -12,3 +12,14 @@ paths:
 
 servers:
   - url: http://api.example.com/v1
+
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
