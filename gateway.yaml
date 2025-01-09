@@ -1,10 +1,10 @@
 openapi: 3.0.0
 x-direktiv-api: gateway/v1
 
-info:
-  title: namespace name
-  description: description of namespace
-  version: git-commit / tag?
+# info:
+#   title: namespace name
+#   description: description of namespace
+#   version: git-commit / tag?
 
 paths:
   /user:
