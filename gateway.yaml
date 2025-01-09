@@ -1,5 +1,5 @@
 openapi: 3.0.0
-x-direktiv-api: gateway/v11
+x-direktiv-api: gateway/v1
 
 info:
   title: namespace name
