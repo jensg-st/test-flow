@@ -1,25 +1,26 @@
 openapi: 3.0.0
 x-direktiv-api: gateway/v1
 
+brokenfile
 # info:
 #   title: namespace name
 #   description: description of namespace
 #   version: git-commit / tag?
 
-paths:
-  /user:
-    $ref: ./user.yaml
+# paths:
+#   /user:
+#     $ref: ./user.yaml
 
-servers:
-  - url: http://api.example.com/v1
+# servers:
+#   - url: http://api.example.com/v1
 
 
-components:
-  schemas:
-    User:
-      type: object
-      properties:
-        id:
-          type: integer
-        name:
-          type: string
+# components:
+#   schemas:
+#     User:
+#       type: object
+#       properties:
+#         id:
+#           type: integer
+#         name:
+#           type: string
