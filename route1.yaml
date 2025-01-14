@@ -20,4 +20,4 @@ get:
       content:
         text/plain:
           schemas:
-            $ref: #/components/schemas/user
+            $ref: "#/components/schemas/user"
