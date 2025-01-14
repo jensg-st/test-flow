@@ -5,7 +5,7 @@ x-direktiv-config:
   allow_anonymous: true
   plugins:
     target: 
-      type: instant-reponse
+      type: instant-response
       configuration:
         status-code: 200
         status-message: hello
