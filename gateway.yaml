@@ -16,10 +16,9 @@ servers:
 
 components:
   schemas:
-    User:
-      type: object
+    OtherUser:
       properties:
-        id:
+        id2:
           type: integer
         name:
           type: string

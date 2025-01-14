@@ -16,8 +16,7 @@ get:
     - demo-tag
   responses:
     "200":
-      description: OK
       content:
-        text/plain:
-          schemas:
-            $ref: "#/components/schemas/user"
+        application/json:
+          schema:
+            $ref: "gateway.yaml#/components/schemas/OtherUser"
