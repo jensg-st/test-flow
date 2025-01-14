@@ -14,8 +14,6 @@ servers:
   - url: http://api.example.com/v1
 
 
-somehell:
-  value: hello
 
 components:
   schemas:
