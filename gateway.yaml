@@ -13,13 +13,12 @@ paths:
 servers:
   - url: http://api.example.com/v1
 
-
-
 components:
   schemas:
-    OtherUser:
-      properties:
-        id2:
-          type: integer
-        name:
-          type: string
+    $ref: "components.yaml"
+    # OtherUser:
+    #   properties:
+    #     id2:
+    #       type: integer
+    #     name:
+    #       type: string

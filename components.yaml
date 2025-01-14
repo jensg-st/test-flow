@@ -1,0 +1,6 @@
+    OtherUser:
+      properties:
+        id2:
+          type: integer
+        name:
+          type: string
