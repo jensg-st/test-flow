@@ -7,8 +7,8 @@ x-direktiv-config:
     target: 
       type: instant-response
       configuration:
-        status-code: 200
-        status-message: hello
+        status_code: 200
+        status_message: hello
 get:
   summary: Returns a list of users.
   description: Optional extended description in CommonMark or HTML.
