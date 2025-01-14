@@ -3,12 +3,12 @@ x-direktiv-api: endpoint/v2
 x-direktiv-path: /mypath  
 x-direktiv-config:
   plugins:
-    target-plugin: 
+    target: 
       type: instant-reponse
       configuration:
         status-code: 200
         status-message: hello
-    inbound-plugin:
+    inbound:
       - type: js-inbound
         configuration:
           script: |-
