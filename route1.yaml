@@ -9,14 +9,6 @@ x-direktiv-config:
       configuration:
         status-code: 200
         status-message: hello
-    inbound:
-      - type: js-inbound
-        configuration:
-          script: |-
-            log("hello")
-            log("world")  
-    
-
 get:
   summary: Returns a list of users.
   description: Optional extended description in CommonMark or HTML.
