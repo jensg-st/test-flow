@@ -17,5 +17,7 @@ get:
   responses:
     "200":
       description: OK
-      schemas:
-        $ref: #/components/schemas/user
+      content:
+        text/plain:
+          schemas:
+            $ref: #/components/schemas/user
