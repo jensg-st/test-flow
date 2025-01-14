@@ -16,6 +16,7 @@ get:
     - demo-tag
   responses:
     "200":
+      description: returns something
       content:
         application/json:
           schema:
