@@ -13,7 +13,7 @@ paths:
 servers:
   - url: http://api.example.com/v1
 
-components:
-  schemas:
-    OtherUser:
-      $ref: "./components.yaml"
+# components:
+#   schemas:
+#     OtherUser:
+#       $ref: "./components.yaml"
