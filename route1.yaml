@@ -20,4 +20,4 @@ get:
       content:
         application/json:
           schema:
-            $ref: "gateway.yaml#/components/schemas/OstherUser"
+            $ref: "gateway.yaml#/components/schemas/OtherUser"
