@@ -9,16 +9,16 @@ info:
 paths:
   /user:
     $ref: ./route1.yaml
-  # /jens:
-  #   $ref: "#/components/schemas/OtherUser"
+  /jens:
+    $ref: "#/components/schemas/OtherUser"
 
 servers:
   - url: http://api.example.com/v1
 
-# components:
-#   schemas:
-#     OtherUser:
-#       $ref: "./components.yaml"
-#     BrokenUser:
-#       $ref: "./components2.yaml"
+components:
+  schemas:
+    OtherUser:
+      $ref: "./components.yaml"
+    BrokenUser:
+      $ref: "./components2.yaml"
     
