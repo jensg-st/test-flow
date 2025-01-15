@@ -16,7 +16,7 @@ servers:
 components:
   schemas:
     OtherUser:
-      $ref: "components.yaml"
+      $ref: "./components.yaml"
     # OtherUser:
     #   properties:
     #     id2:
