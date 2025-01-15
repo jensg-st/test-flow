@@ -19,6 +19,3 @@ components:
   schemas:
     OtherUser:
       $ref: "./components.yaml"
-
-ssss: 
-  sld: jjj
