@@ -15,10 +15,10 @@ paths:
 servers:
   - url: http://api.example.com/v1
 
-components:
-  schemas:
-    OtherUser:
-      $ref: "./components.yaml"
-    BrokenUser:
-      $ref: "./components2.yaml"
+# components:
+#   schemas:
+#     OtherUser:
+#       $ref: "./components.yaml"
+#     BrokenUser:
+#       $ref: "./components2.yaml"
     
