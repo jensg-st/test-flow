@@ -9,6 +9,8 @@ info:
 paths:
   /user:
     $ref: ./route1.yaml
+  /jens:
+    $ref: "#/components/schemas/OtherUser"
 
 servers:
   - url: http://api.example.com/v1
