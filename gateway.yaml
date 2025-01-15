@@ -19,6 +19,4 @@ components:
   schemas:
     OtherUser:
       $ref: "./components.yaml"
-    BrokenUser:
-      $ref: "./components2.yaml"
     
