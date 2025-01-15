@@ -8,7 +8,7 @@ info:
 
 paths:
   /user:
-    $ref: ./route1.yaml
+    $ref: ./route11.yaml
 
 servers:
   - url: http://api.example.com/v1
