@@ -13,9 +13,9 @@ paths:
 servers:
   - url: http://api.example.com/v1
 
-components:
-  schemas:
-    $ref: "components.yaml"
+# components:
+#   schemas:
+#     $ref: "components.yaml"
     # OtherUser:
     #   properties:
     #     id2:
