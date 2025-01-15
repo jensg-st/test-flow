@@ -16,10 +16,4 @@ servers:
 components:
   schemas:
     OtherUser:
-      $ref: "./components.yaml"
-    # OtherUser:
-    #   properties:
-    #     id2:
-    #       type: integer
-    #     name:
-    #       type: string
+      $ref: "./componentss.yaml"
