@@ -15,10 +15,10 @@ servers:
 
 components:
   schemas:
-#     $ref: "components.yaml"
-    OtherUser:
-      properties:
-        id2:
-          type: integer
-        name:
-          type: string
+    $ref: "components.yaml"
+    # OtherUser:
+    #   properties:
+    #     id2:
+    #       type: integer
+    #     name:
+    #       type: string
