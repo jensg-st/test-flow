@@ -27,6 +27,7 @@ func (d *DummyFS) Open(name string) (fs.File, error) {
 func (d *DummyFS) GetFiles() map[string]index.RolodexFile {
 	fmt.Println("GET FILES!!!!!")
 	m := make(map[string]index.RolodexFile)
+
 	return m
 }
 
