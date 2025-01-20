@@ -1,5 +1,12 @@
+type: object
+required:
+- id
+- name
 properties:
-  id2:
-    type: integer
-  name:
-    type: string  
+id:
+  type: integer
+  format: int64
+name:
+  type: string
+tag:
+  type: string
