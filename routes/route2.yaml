@@ -17,3 +17,5 @@ get:
   responses:
     "200":
       description: returns something
+
+helo: world
