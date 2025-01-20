@@ -25,3 +25,5 @@ components:
     $ref: "./schemas/_index.yaml"
   responses:
     $ref: "./responses/_index.yaml"
+
+whatever: ejns
