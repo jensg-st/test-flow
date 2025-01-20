@@ -1,4 +1,4 @@
-
+OtherUser:
   properties:
     id2:
       type: integer

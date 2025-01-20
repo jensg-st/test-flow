@@ -1,21 +1,21 @@
-x-direktiv-api: endpoint/v2
+# x-direktiv-api: endpoint/v2
 
-x-direktiv-config:
-  path: "/testme3"
-  allow_anonymous: true
-  plugins:
-    target: 
-      type: instant-response
-      configuration:
-        status_code: 200
-        status_message: hello
-get:
-  summary: Returns a list of users.
-  description: Optional extended description in CommonMark or HTML.
-  tags:
-    - demo-tag
-  responses:
-    "200":
-      description: returns something
+# x-direktiv-config:
+#   path: "/testme3"
+#   allow_anonymous: true
+#   plugins:
+#     target: 
+#       type: instant-response
+#       configuration:
+#         status_code: 200
+#         status_message: hello
+# get:
+#   summary: Returns a list of users.
+#   description: Optional extended description in CommonMark or HTML.
+#   tags:
+#     - demo-tag
+#   responses:
+#     "200":
+#       description: returns something
 
-  whatever: jens
+#   whatever: jens
