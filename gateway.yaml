@@ -15,4 +15,5 @@ servers:
 
 components:
   schemas:
-    $ref: "./components.yaml"
+    OtherUser:
+      $ref: components.yaml#OtherUserBackup
