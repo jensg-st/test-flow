@@ -1,6 +1,5 @@
-OtherUserBackup:
-  properties:
-    id2:
-      type: integer
-    name:
-      type: string  
+properties:
+  id2:
+    type: integer
+  name:
+    type: string  
