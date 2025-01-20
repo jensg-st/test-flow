@@ -1,3 +1,4 @@
+x-direktiv-api: gateway/v1
 openapi: "3.0.0"
 info:
   version: 1.0.0
@@ -25,5 +26,5 @@ components:
     $ref: "./schemas/_index.yaml"
   responses:
     $ref: "./responses/_index.yaml"
-# 
-# whatever: ejns
+
+whatever: ejns
