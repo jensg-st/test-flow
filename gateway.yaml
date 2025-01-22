@@ -18,6 +18,6 @@ servers:
 components:
   schemas:
     OtherUser:
-      $ref: ./components.yaml
+      $ref: ./components222.yaml
 
 whatver: jens
