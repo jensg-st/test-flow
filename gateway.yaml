@@ -10,7 +10,7 @@ paths:
   /user:
     $ref: ./route1.yaml
   /user2:
-    $ref: routes/route2222.yaml
+    $ref: routes/route2.yaml
 
 servers:
   - url: http://api.example.com/v1
