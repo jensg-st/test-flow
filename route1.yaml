@@ -11,10 +11,13 @@ x-direktiv-config:
         status_message: hello
 get:
   summary: Returns a list of users.
+  operationId: lll 
   description: Optional extended description in CommonMark or HTML.
   tags:
     - demo-tag
   responses:
+    "404":
+      description: f all
     "200":
       description: returns something
       content:

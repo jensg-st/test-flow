@@ -10,6 +10,7 @@ x-direktiv-config:
         status_code: 200
         status_message: hello
 get:
+  operationId: listu 
   summary: Returns a list of users.
   description: Optional extended description in CommonMark or HTML.
   tags:
@@ -17,5 +18,6 @@ get:
   responses:
     "200":
       description: returns something
+    "404":
+      description: f all
 
-helo: world

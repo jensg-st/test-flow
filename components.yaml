@@ -1,4 +1,3 @@
-OtherUser:
   type: object
   required:
     - id
