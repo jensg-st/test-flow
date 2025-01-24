@@ -1,6 +1,6 @@
 # components:
 #   schemas: 
-    OtherUser:
+    # OtherUser:
         type: object
         required:
           - id
