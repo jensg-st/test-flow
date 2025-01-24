@@ -23,5 +23,4 @@ get:
       content:
         application/json:
           schema:
-              # $ref: "./gateway.yaml#/components/schemas/OtherUser"
-              $ref: "./cc.yaml#/OtherUser"
+              $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"

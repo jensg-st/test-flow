@@ -10,9 +10,9 @@ info:
 
 paths:
   /user:
-    $ref: ./route1.yaml
-  /user2:
-    $ref: routes/route2.yaml
+    $ref: "../../route1.yaml"
+  # /user2:
+  #   $ref: "../../routes/route2.yaml"
 
 servers:
   - url: http://api.example.com/v1
@@ -20,4 +20,4 @@ servers:
 components:
   schemas: 
     OtherUser:
-      $ref: ./components.yaml
+      $ref: "../../components.yaml"
