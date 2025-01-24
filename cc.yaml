@@ -1,5 +1,5 @@
-components:
-  schemas: 
+# components:
+#   schemas: 
     OtherUser:
         type: object
         required:
