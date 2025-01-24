@@ -17,5 +17,4 @@ servers:
 
 components:
   schemas:
-    OtherUser:
-      $ref: ./components.yaml
+    $ref: ./components.yaml
