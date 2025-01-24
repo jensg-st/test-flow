@@ -1,4 +1,4 @@
-OtherUser:
+# OtherUser:
   type: object
   required:
     - id
