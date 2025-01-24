@@ -23,6 +23,5 @@ get:
       content:
         application/json:
           schema:
-            OtherUser:
-              $ref: "./cc.yaml#/OtherUser"
+              $ref: "./gateway.yaml#/components/schemas/OtherUser"
             # $ref: "./cc.yaml#/components/schemas/OtherUser"
