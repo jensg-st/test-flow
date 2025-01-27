@@ -21,3 +21,6 @@ components:
   schemas: 
     OtherUser:
       $ref: "../../components.yaml"
+    Date:
+      type: string
+      format: date

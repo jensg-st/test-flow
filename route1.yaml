@@ -1,5 +1,7 @@
 x-direktiv-api: endpoint/v2
 
+whatever: 100
+
 x-direktiv-config:
   path: "/testme"
   allow_anonymous: true
