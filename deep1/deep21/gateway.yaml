@@ -10,17 +10,27 @@ info:
 
 paths:
   /user:
-    $ref: "../../route1.yaml"
+    get:
+      summary: Returns a list of users.
+      description: Optional extended description in CommonMark or HTML.
+      tags:
+        - demo-tag
+      responses:
+        "404":
+          description: f all
+        "200":
+          description: returns something
+    # $ref: "../../route1.yaml"
   # /user2:
   #   $ref: "../../routes/route2.yaml"
 
 servers:
   - url: http://api.example.com/v1
 
-components:
-  schemas: 
-    OtherUser:
-      $ref: "../../components.yaml"
-    Date:
-      type: string
-      format: date
+# components:
+#   schemas: 
+#     OtherUser:
+#       $ref: "../../components.yaml"
+#     Date:
+#       type: string
+#       format: date
