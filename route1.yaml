@@ -19,7 +19,7 @@ get:
       description: f all
     "200":
       description: returns something
-      # content:
-      #   application/json:
-      #     schema:
-      #         $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
+      content:
+        application/json:
+          schema:
+              $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
