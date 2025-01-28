@@ -27,10 +27,10 @@ paths:
 servers:
   - url: http://api.example.com/v1
 
-# components:
-#   schemas: 
-#     OtherUser:
-#       $ref: "../../components.yaml"
-#     Date:
-#       type: string
-#       format: date
+components:
+  schemas: 
+    OtherUser:
+      $ref: "../../components.yaml"
+    Date:
+      type: string
+      format: date
