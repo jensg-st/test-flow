@@ -16,8 +16,8 @@ get:
     - demo-tag
   whatever: one
   responses:
-    "700":
-      description: skjsjsjk
+    # "700":
+    #   description: skjsjsjk
     "404":
       description: f all2
     "200":
