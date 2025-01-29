@@ -14,6 +14,7 @@ get:
   description: Optional extended description in CommonMark or HTML.
   tags:
     - demo-tag
+  whatever: one
   responses:
     "404":
       description: f all2
