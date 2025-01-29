@@ -14,7 +14,7 @@ get:
   description: Optional extended description in CommonMark or HTML.
   tags:
     - demo-tag
-  whatever: one
+  # whatever: one
   responses:
     # "700":
     #   description: skjsjsjk
