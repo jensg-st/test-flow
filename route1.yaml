@@ -23,3 +23,5 @@ get:
         application/json:
           schema:
               $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
+
+jens: gerke
