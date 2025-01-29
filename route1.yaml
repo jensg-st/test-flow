@@ -16,7 +16,7 @@ get:
     - demo-tag
   responses:
     "404":
-      description: f all
+      description: f all2
     "200":
       description: returns something
       content:
