@@ -19,12 +19,13 @@ get:
     # "700":
     #   description: skjsjsjk
     "404":
-      description: f all2
+      description: not found
     "200":
       description: returns something
       content:
         application/json:
           schema:
-              $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
+              $ref: components2.yaml
+              # $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
 
 # jens: gerke 
