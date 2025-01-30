@@ -8,21 +8,9 @@ info:
   contact:
     name: Jens
 
-paths:
-  /user:
-    get:
-      summary: Returns a list of users.
-      description: Optional extended description in CommonMark or HTML.
-      tags:
-        - demo-tag
-      responses:
-        "404":
-          description: f all
-        "200":
-          description: returns something
-    # $ref: "../../route1.yaml"
-  # /user2:
-  #   $ref: "../../routes/route2.yaml"
+paths:  
+  /user2:
+    $ref: "../../route1.yaml"
 
 servers:
   - url: http://api.example.com/v1
