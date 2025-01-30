@@ -14,7 +14,7 @@ get:
   description: Optional extended description in CommonMark or HTML.
   tags:
     - demo-tag
-  whatever: one
+  # whatever: one
   responses:
     # "700":
     #   description: skjsjsjk
@@ -27,4 +27,4 @@ get:
           schema:
               $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
 
-jens: gerke
+# jens: gerke 
