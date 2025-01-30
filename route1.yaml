@@ -25,6 +25,6 @@ get:
       content:
         application/json:
           schema:
-              $ref: "components.yaml"
+              $ref: "components2.yaml"
 
 # jens: gerke 
