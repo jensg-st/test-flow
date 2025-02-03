@@ -25,7 +25,7 @@ get:
       content:
         application/json:
           schema:
-              # $ref: components2.yaml
-              $ref: "deep1/deep21/gateway2.yaml#/components/schemas/OtherUser"
+              $ref: components2.yaml
+              # $ref: "deep1/deep21/gateway2.yaml#/components/schemas/OtherUser"
 
 # jens: gerke 
