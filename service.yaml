@@ -1,6 +1,0 @@
-direktiv_api: services/v1
-services:
-- name: requester
-  image: direktiv/request:v4
-  size: medium
-  scale: 1

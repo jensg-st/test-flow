@@ -1,7 +1,0 @@
-direktiv_api: workflow/v1
-description: A simple 'no-op' state that returns 'Hello world!'
-states:
-- id: helloworld
-  type: noop
-  transform:
-    result: Hello world!
