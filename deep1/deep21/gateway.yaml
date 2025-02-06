@@ -1,24 +1,44 @@
-openapi: 3.0.0
-x-direktiv-api: gateway/v1
+# openapi: 3.0.0
+# x-direktiv-api: gateway/v1
 
-info:
-  title: MyAPI
-  description: the description of the API
-  version: "1.0"
-  contact:
-    name: Jens
+# info:
+#   title: MyAPI
+#   description: the description of the API
+#   version: "1.0"
+#   contact:
+#     name: Jens
 
-paths:  
-  /user2:
-    $ref: "../../route1.yaml"
+# paths:  
+#   /user2:
+#     $ref: "../../route1.yaml"
 
-servers:
-  - url: http://api.example.com/v1
+# servers:
+#   - url: http://api.example.com/v1
+
+# components:
+#   schemas: 
+#     OtherUser:
+#       $ref: "../../components.yaml"
+#     Date:
+#       type: string
+#       format: date
+
 
 components:
-  schemas: 
-    OtherUser:
-      $ref: "../../components.yaml"
-    Date:
-      type: string
-      format: date
+    schemas:
+        Date:
+            format: date
+            type: string
+        OtherUser:
+            $ref: ../../components.yaml
+info:
+    contact:
+        name: Jens
+    description: the description of the API
+    title: MyAPI
+    version: "1.0"
+openapi: 3.0.0
+paths:
+    /testme:
+        $ref: ../../route1.yaml
+# x-direktiv-api: gateway/v1
