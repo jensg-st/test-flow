@@ -41,4 +41,4 @@ openapi: 3.0.0
 paths:
     /testme:
         $ref: ../../route1.yaml
-# x-direktiv-api: gateway/v1
+x-direktiv-api: gateway/v1
