@@ -1,0 +1,12 @@
+  type: object
+  required:
+    - id2
+    - name2
+  properties:
+    id2:
+      type: integer
+      format: int64
+    name2:
+      type: string
+    tag2:
+      type: string

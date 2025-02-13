@@ -11,16 +11,21 @@ x-direktiv-config:
         status_message: hello
 get:
   summary: Returns a list of users.
-  operationId: lll 
   description: Optional extended description in CommonMark or HTML.
   tags:
     - demo-tag
+  # whatever: one
   responses:
+    # "700":
+    #   description: skjsjsjk
     "404":
-      description: f all
+      description: not found
     "200":
       description: returns something
       content:
         application/json:
           schema:
-              $ref: "deep1/deep21/gateway.yaml#/components/schemas/OtherUser"
+              $ref: components2.yaml
+              # $ref: "deep1/deep21/gateway2.yaml#/components/schemas/OtherUser"
+
+# jens: gerke 
