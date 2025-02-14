@@ -12,10 +12,15 @@ paths:
 
 components:
     securitySchemes:
-        defaultApiKey2:
+        defaultApiKey:
             description: API key provided in console
             type: apiKey
             name: api-key
+            in: header
+        defaultApiKey2:
+            description: API2 key provided in console
+            type: apiKey
+            name: api-key2
             in: header
     schemas:
         Date:
