@@ -11,17 +11,17 @@ paths:
         $ref: route1.yaml
 
 components:
-    securitySchemes:
-        defaultApiKey:
-            description: API key provided in console
-            type: apiKey
-            name: api-key
-            in: header
-        defaultApiKey2:
-            description: API2 key provided in console
-            type: apiKey
-            name: api-key2
-            in: header
+    # securitySchemes:
+    #     defaultApiKey:
+    #         description: API key provided in console
+    #         type: apiKey
+    #         name: api-key
+    #         in: header
+    #     defaultApiKey2:
+    #         description: API2 key provided in console
+    #         type: apiKey
+    #         name: api-key2
+    #         in: header
     schemas:
         Date:
             format: date
