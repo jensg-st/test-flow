@@ -1,0 +1,19 @@
+x-direktiv-api: gateway/v1
+
+openapi: 3.0.0
+info:
+    description: the description of the API
+    title: MyAPI
+    version: "1.0"
+
+paths:
+    /testme:
+        $ref: route1.yaml
+
+components:
+    schemas:
+        Date:
+            format: date
+            type: string
+        OtherUser:
+            $ref: components.yaml
