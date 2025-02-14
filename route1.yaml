@@ -10,6 +10,8 @@ x-direktiv-config:
         status_code: 200
         status_message: hello
 get:
+  security:
+        - defaultApiKey: []
   responses:
     "200":
       description: returns something
