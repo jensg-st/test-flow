@@ -1,0 +1,4 @@
+direktiv_api: service/v1
+image: gcr.io/direktiv/functions/http-request:1.0
+size: small
+scale: 1
